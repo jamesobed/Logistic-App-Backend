@@ -1,0 +1,42 @@
+openapi: 3.0.0
+info:
+  title: Dispatch Buddy
+  description: This is just a testing documentation
+  contact: {}
+  version: '1.0'
+servers:
+- url: 127.0.0.1:3500/
+  variables: {}
+- url: 127.0.0.1:3500/
+  description: Testing documentation
+  variables: {}
+paths:
+  /users:
+    get:
+      tags:
+      - users
+      summary: get user
+      operationId: getuser
+      parameters: []
+      responses:
+        '200':
+          description: ''
+          headers: {}
+      deprecated: false
+      security: []
+  /:
+    get:
+      tags:
+      - index
+      summary: home page
+      operationId: homepage
+      parameters: []
+      responses:
+        '200':
+          description: ''
+          headers: {}
+      deprecated: false
+      security: []
+tags:
+- name: users
+- name: index

@@ -1,0 +1,20 @@
+{
+  "editor.formatOnPaste": false,
+  "editor.formatOnType": false,
+  "editor.formatOnSave": true,
+  "editor.formatOnSaveMode": "file",
+  "editor.semanticHighlighting.enabled": true,
+  "sqltools.connections": [
+    {
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 5432,
+      "driver": "PostgreSQL",
+      "name": "DispatchBuddy",
+      "group": "DispatchBuddy",
+      "database": "dispatch_buddy_database",
+      "username": "postgres",
+      "password": "1234"
+    }
+  ],
+}

@@ -1,0 +1,17 @@
+.env
+.vscode
+.DS_Store
+.husky
+coverage
+node_modules
+src
+__tests__
+.eslintrc
+.eslintignore
+.gitignore
+.prettierignore
+.prettierrc
+jest.config.js
+tsconfig.json
+README.md
+yarn.lock
